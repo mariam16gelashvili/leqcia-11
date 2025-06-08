@@ -9,7 +9,18 @@
 <body>
     <h1>ლექცია 11</h1>
 
+  <form class="first">
+        <textarea></textarea>
+        <div class="fields">
+            <input type="text" placeholder="სახელი">
+            <input type="password" placeholder="პაროლი">
+            <button>რეგისტრაცია</button>
+        </div>
+    </form>
+
     <form>
+        <fieldset>
+        <legend> fill your application form</legend>
         <label for="firstname">სახელი</label>
         <input type="text" id="firstname">
 
@@ -48,14 +59,38 @@
         <br>
 
         <p>where would you like to work</p>
-       <input type="checkbox" id="microsoft" name="microsoft" value="microsoft"> 
-       <label for="microsoft">microsoft</label>
-       <br>
-       <input type="checkbox" id="google" name="google" value="google"> 
-       <label for="google">google</label>
-       <br>
+        <input type="checkbox" id="microsoft" name="microsoft" value="microsoft"> 
+        <label for="microsoft">microsoft</label>
+    
+        <br>
+
+        <input type="checkbox" id="google" name="google" value="google"> 
+        <label for="google">google</label>
+
+        <br>
+
         <input type="checkbox" id="apple" name="apple" value="apple"> 
-       <label for="google">apple</label>
+        <label for="google">apple</label>
+
+        <br>
+        <br>
+
+        <label for="gender">სქესი</label>
+        <select id="gender">
+            <option value="male">მამრი</option>
+            <option value="female">მდედრობითი</option>
+        </select>
+
+        <br>
+        <br>
+
+        <p>tell us abot your experience</p>
+        <textarea cols="60"  rows="20"></textarea>
+
+         <br>
+        <button>register</button>
+        </fieldset>
+       
     </form>
 
 </body>
